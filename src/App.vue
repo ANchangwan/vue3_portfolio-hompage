@@ -1,5 +1,5 @@
 <script setup>
-import Title from "./components/Title.vue";
+import TitlePage from "./components/TitlePage.vue";
 import Portfolio from "./components/Portfolio.vue";
 import About from "./components/About.vue";
 
@@ -15,18 +15,16 @@ import About from "./components/About.vue";
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#title">Home</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         </ul>
       </div>
     </div>
   </nav>
-  <Title/>
-  <Portfolio/>
-  <About/>
+ <router-view/>
 </template>
 
 <style scoped lang="scss">

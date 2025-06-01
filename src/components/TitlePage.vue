@@ -1,5 +1,5 @@
 <script setup>
-  const title = "Hello,<br/> I'm Changwan";
+const title = "Hello,<br/> I'm Changwan";
 </script>
 
 <template>
@@ -20,7 +20,6 @@
 
 <style scope lang="scss">
 #title {
-
   .container {
     $navbar_height: 56px; // navbar 높이값
     height: 100vh;
